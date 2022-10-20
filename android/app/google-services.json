@@ -1,0 +1,195 @@
+{
+  "project_info": {
+    "project_number": "532088779302",
+    "firebase_url": "https://a-rafy-deliveries-default-rtdb.firebaseio.com",
+    "project_id": "a-rafy-deliveries",
+    "storage_bucket": "a-rafy-deliveries.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:532088779302:android:101dc98c728eb7c5402ce7",
+        "android_client_info": {
+          "package_name": "com.greaterworkstech.arafydeliveries"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "532088779302-j0u90ehqofrododet2v5s6gp1q7dle19.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.greaterworkstech.arafydeliveries",
+            "certificate_hash": "4a583b2cfad76b0afefb845ec303892c9f52a747"
+          }
+        },
+        {
+          "client_id": "532088779302-j11p9id6kd8etgv8ecdut7a2kmgjo459.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.greaterworkstech.arafydeliveries",
+            "certificate_hash": "04c13856e5779457bbeeb3889b5c5f179df9fa51"
+          }
+        },
+        {
+          "client_id": "532088779302-pcgejuo7gaev1e3pln3ku20kk6ld6226.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVLlxX7_pnD6r9glJkPjrBLJMFCim90qA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "532088779302-38v6eshsqcflc0sah4raqcubqrdqd4mt.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "532088779302-g2q9ts46p4ta05jcg5tvrmqn86vqvln8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.rafdelivery.deliveryRider"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:532088779302:android:3b15f7d6242aa9f0402ce7",
+        "android_client_info": {
+          "package_name": "com.greaterworkstech.arafydeliveriesRider"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "532088779302-0c2pl3ui4gfnklg6fac5cm57gi1ipaob.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.greaterworkstech.arafydeliveriesRider",
+            "certificate_hash": "04c13856e5779457bbeeb3889b5c5f179df9fa51"
+          }
+        },
+        {
+          "client_id": "532088779302-irka8hhjaib9mvqaebfahba1uptgkjl0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.greaterworkstech.arafydeliveriesRider",
+            "certificate_hash": "4a583b2cfad76b0afefb845ec303892c9f52a747"
+          }
+        },
+        {
+          "client_id": "532088779302-pcgejuo7gaev1e3pln3ku20kk6ld6226.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVLlxX7_pnD6r9glJkPjrBLJMFCim90qA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "532088779302-38v6eshsqcflc0sah4raqcubqrdqd4mt.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "532088779302-g2q9ts46p4ta05jcg5tvrmqn86vqvln8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.rafdelivery.deliveryRider"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:532088779302:android:3cc360bc71f789eb402ce7",
+        "android_client_info": {
+          "package_name": "com.greaterworkstech.arafydeliveriesvendor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "532088779302-7i7pola1q5jc5kkf3s0iem95kd1f5qbd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.greaterworkstech.arafydeliveriesvendor",
+            "certificate_hash": "04c13856e5779457bbeeb3889b5c5f179df9fa51"
+          }
+        },
+        {
+          "client_id": "532088779302-pcgejuo7gaev1e3pln3ku20kk6ld6226.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVLlxX7_pnD6r9glJkPjrBLJMFCim90qA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "532088779302-38v6eshsqcflc0sah4raqcubqrdqd4mt.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "532088779302-g2q9ts46p4ta05jcg5tvrmqn86vqvln8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.rafdelivery.deliveryRider"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:532088779302:android:25b0fdee8490e7f9402ce7",
+        "android_client_info": {
+          "package_name": "online.edentech.fuodzvendor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "532088779302-pcgejuo7gaev1e3pln3ku20kk6ld6226.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVLlxX7_pnD6r9glJkPjrBLJMFCim90qA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "532088779302-38v6eshsqcflc0sah4raqcubqrdqd4mt.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "532088779302-g2q9ts46p4ta05jcg5tvrmqn86vqvln8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.rafdelivery.deliveryRider"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
