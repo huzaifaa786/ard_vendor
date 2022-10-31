@@ -5,6 +5,7 @@ class AppImages {
   static const forgotPasswordImage = "assets/images/forgot_pasword.png";
   static const loginImage = "assets/images/login_intro.png";
   static const registerImage = "assets/images/register_intro.jpg";
+  static const otpImage = "assets/images/otp.png";
 
   //
   static const onboarding1 = "assets/images/1.png";

@@ -1,7 +1,9 @@
+import 'package:flag/flag.dart';
 import 'package:flutter/material.dart';
 import 'package:fuodz/constants/app_colors.dart';
 import 'package:fuodz/constants/app_images.dart';
 import 'package:fuodz/services/validator.service.dart';
+import 'package:fuodz/utils/ui_spacer.dart';
 import 'package:fuodz/view_models/login.view_model.dart';
 import 'package:fuodz/widgets/base.page.dart';
 import 'package:fuodz/widgets/buttons/custom_button.dart';
@@ -41,8 +43,9 @@ class _LoginPageState extends State<LoginPage> {
                 VStack(
                   [
                     //
-                    "Welcome Back".tr().text.xl2.semiBold.make(),
-                    "Login to continue".tr().text.light.make(),
+                    // "Welcome Back".tr().text.xl2.semiBold.make(),
+                    // "Login to continue".tr().text.light.make(),
+                    "Login to continue".tr().text.xl2.semiBold.make(),
 
                     //form
                     Form(
@@ -50,36 +53,62 @@ class _LoginPageState extends State<LoginPage> {
                       child: VStack(
                         [
                           //
-                          CustomTextFormField(
-                            labelText: "Email".tr(),
-                            keyboardType: TextInputType.emailAddress,
-                            textEditingController: model.emailTEC,
-                            validator: FormValidator.validateEmail,
-                          ).py12(),
-                          CustomTextFormField(
-                            labelText: "Password".tr(),
-                            obscureText: true,
-                            textEditingController: model.passwordTEC,
-                            validator: FormValidator.validatePassword,
+                          // CustomTextFormField(
+                          //   labelText: "Email".tr(),
+                          //   keyboardType: TextInputType.emailAddress,
+                          //   textEditingController: model.emailTEC,
+                          //   validator: FormValidator.validateEmail,
+                          // ).py12(),
+                          // CustomTextFormField(
+                          //   labelText: "Password".tr(),
+                          //   obscureText: true,
+                          //   textEditingController: model.passwordTEC,
+                          //   validator: FormValidator.validatePassword,
+                          // ).py12(),
+                          HStack(
+                            [
+                              CustomTextFormField(
+                                prefixIcon: HStack(
+                                  [
+                                    //icon/flag
+                                    Flag.fromString(
+                                      model.selectedCountry.countryCode,
+                                      width: 20,
+                                      height: 20,
+                                    ),
+                                    UiSpacer.horizontalSpace(space: 5),
+                                    //text
+                                    ("+" + model.selectedCountry.phoneCode)
+                                        .text
+                                        .make(),
+                                  ],
+                                ).px8().onInkTap(model.showCountryDialPicker),
+                                labelText: "Phone".tr(),
+                                hintText: "",
+                                keyboardType: TextInputType.phone,
+                                textEditingController: model.phoneTEC,
+                                validator: FormValidator.validatePhone,
+                              ).expand(),
+                            ],
                           ).py12(),
 
                           //
-                          "Forgot Password ?"
-                              .tr()
-                              .text
-                              .underline
-                              .make()
-                              .onInkTap(
-                                model.openForgotPassword,
-                              ),
-                          //
+                          // "Forgot Password ?"
+                          //     .tr()
+                          //     .text
+                          //     .underline
+                          //     .make()
+                          //     .onInkTap(
+                          //       model.openForgotPassword,
+                          //     ),
+                          // //
                           CustomButton(
                             title: "Login".tr(),
-                            loading: model.isBusy,
-                            onPressed: model.processLogin,
+                            loading: model.busy(model.otpLogin),
+                            onPressed: model.processOTPLogin,
                           ).centered().py12(),
 
-                           ScanLoginView(model),
+                          ScanLoginView(model),
 
                           //registration link
                           "Become a partner"
@@ -90,7 +119,8 @@ class _LoginPageState extends State<LoginPage> {
                               .underline
                               .semiBold
                               .makeCentered()
-                              .onInkTap(model.openRegistrationlink).py12()
+                              .onInkTap(model.openRegistrationlink)
+                              .py12()
                         ],
                         crossAlignment: CrossAxisAlignment.end,
                       ),

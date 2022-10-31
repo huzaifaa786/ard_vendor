@@ -26,6 +26,7 @@ class FormValidator {
       value,
       'required|numeric|min:3|max:16',
       name: name,
+      locale: translator.activeLocale.languageCode,
     );
   }
 

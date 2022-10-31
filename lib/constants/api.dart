@@ -21,7 +21,7 @@ class Api {
   static const updatePassword = "/profile/password/update";
   //
   static const sendOtp = "/otp/send";
-  static const verifyOtp = "/otp/verify";
+  static const verifyOtp = "/otp/vendor/verify";
 
   static const orders = "/orders";
   static const chat = "/chat/notification";
